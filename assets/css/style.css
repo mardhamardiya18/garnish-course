@@ -65,6 +65,20 @@ body{
     font-weight: 500;
 }
 
+.banner .diccount-price span{
+    font-size: 16px;
+    animation: promo .5s linear infinite;
+}
+
+@keyframes promo {
+    0%, 100%{
+        opacity: .5;
+    }
+    50%{
+        opacity: 1;
+    }
+}
+
 .benefit{
     max-width: 750px;
 }
