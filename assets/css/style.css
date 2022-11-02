@@ -1,0 +1,205 @@
+*{
+    text-decoration: none !important;
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFAE1;
+}
+
+.navbar{
+    background-color: #FFFAE1;
+    transition: .3s ease-in-out;
+}
+
+.navbar.active{
+    padding: 5px 0 !important;
+    box-shadow: 0px 2px #8888881b;
+    transition: .3s ease-in-out;
+}
+
+
+.first-btn{
+    font-size: 14px;
+    background-color: #ECAC5D;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-weight: 400;
+}
+
+.first-btn:hover{
+    background-color: #db9c4e;
+    color: rgb(209, 201, 201);
+}
+
+.breadcrumb{
+    margin-top: 80px;
+}
+
+.banner{
+    background-color: #911F27;
+    border-radius: 15px;
+    margin-top: 190px;
+    padding: 30px;
+}
+
+.banner .title-class{
+    font-size: 26px;
+    font-weight: 600;
+    position: absolute;
+    left: 20px;
+    bottom: 0px;
+    right: 20px;
+}
+
+.banner .heading1{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.banner .diccount-price{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.benefit{
+    max-width: 750px;
+}
+
+.benefit i{
+    font-size: 30px;
+    color: #911F27;
+}
+
+.silabus span i{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.mentor .subheading{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.mentor .name{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.testi .rate i{
+    color: rgb(205, 223, 39);
+    font-size: 25px;
+}
+
+.testi .body i{
+    font-size: 30px;
+}
+
+.bannerCTA{
+    background-color: #911F27;
+    padding: 50px 30px;
+    text-align: center;
+
+}
+
+.bannerCTA p{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+/* Checkout CSS */
+
+.checkout{
+    margin-top: 120px;
+}
+
+.footer .sosmed-icon i{
+    font-size: 40px;
+    color: #db9c4e;
+}
+
+.checkout .img-class{
+    max-width: 420px;
+}
+
+.checkout .img-class .title-class{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    color: white;
+}
+
+
+
+/* MOBILE RESPONSIVE */
+@media screen and (max-width: 500px) {
+    .navbar-brand img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .banner{
+      
+        margin-top: 100px;
+        padding: 20px 10px;
+    }
+
+    .banner .title-class-m{
+        font-size: 20px;
+    }
+
+    .banner .line-title{
+        border: 1px solid white;
+    }
+
+    
+
+    .mentor .name{
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .testi .rate i{
+        color: rgb(205, 223, 39);
+        font-size: 25px;
+    }
+
+    .testi .body i{
+        font-size: 30px;
+    }
+
+    .bannerCTA{
+        background-color: #911F27;
+        padding: 20px 30px;
+
+    }
+
+    .bannerCTA p{
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+    }
+
+    /* Checkout CSS */
+
+    .checkout{
+        margin-top: 120px;
+    }
+
+    .checkout .img-class .title-class{
+        position: absolute;
+        bottom: 0;
+        left: 10px;
+        color: white;
+    }
+
+    .footer .sosmed-icon i{
+        font-size: 30px;
+        color: #db9c4e;
+    }
+}
