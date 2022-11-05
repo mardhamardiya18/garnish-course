@@ -49,6 +49,17 @@ body{
     color: rgb(209, 201, 201);
 }
 
+.col-greeting p{
+    font-size: 30px;
+}
+
+.row-greet img{
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+}
+
 @media screen and (max-width: 500px) {
     .video-wrapper .videoItem{
         width: 100%;
@@ -72,6 +83,10 @@ body{
 
     .col-btn-video i{
         font-size: 16px !important;
+    }
+
+    .row-greet{
+        height: 300px;
     }
 }
 
