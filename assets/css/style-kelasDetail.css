@@ -11384,13 +11384,18 @@ body {
   .sb-sidenav-toggled #layoutSidenav #layoutSidenav_content:before {
     display: none;
   }
+  .sb-nav-fixed #layoutSidenav #layoutSidenav_nav {
+    width: 350px !important;
+    height: 100vh;
+    z-index: 1038;
+  }
 }
 .sb-nav-fixed .sb-topnav {
   
   z-index: 1039;
 }
 .sb-nav-fixed #layoutSidenav #layoutSidenav_nav {
-  width: 350px;
+  width: 250px;
   height: 100vh;
   z-index: 1038;
 }
