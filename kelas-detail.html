@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="./assets/img/logo-banuatumpeng.webp" />
+    <title>Video kelas</title>
+    <!-- MYFONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- MYICONS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link href="./assets/css/dashboard-member.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/style-kelasDetail.css" />
+  </head>
+  <body class="sb-nav-fixed">
+    <nav class="sb-topnav navbar navbar-expand py-4">
+      <!-- Navbar Brand-->
+      <a class="navbar-brand ps-3 text-black" href="index.html">
+        <img src="./assets/img/logo-banuatumpeng.webp" width="60" alt="" />
+        Member Area</a
+      >
+      <!-- Sidebar Toggle-->
+      <button
+        class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0"
+        id="sidebarToggle"
+        href="#!"
+      >
+        <i class="bx bx-menu bx-sm text-black"></i>
+      </button>
+
+      <!-- Navbar-->
+      <ul class="navbar-nav ms-auto me-3 me-lg-4">
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle text-black fw-bold d-flex align-items-center gap-2"
+            id="navbarDropdown"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <div class="position-relative">
+              <img src="./assets/img/testi.png" width="50" alt="" />
+              <svg
+                class="verified"
+                width="29"
+                height="29"
+                viewBox="0 0 29 29"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="14.5" cy="14.5" r="8.5" fill="white" />
+                <path
+                  d="M25.4519 9.71638C25.4835 9.47713 25.5 9.23787 25.5 9C25.5 5.72888 22.5534 3.104 19.2836 3.54812C18.3307 1.85275 16.5157 0.75 14.5 0.75C12.4843 0.75 10.6692 1.85275 9.71638 3.54812C6.43975 3.104 3.5 5.72888 3.5 9C3.5 9.23787 3.5165 9.47713 3.54812 9.71638C1.85275 10.6706 0.75 12.4856 0.75 14.5C0.75 16.5144 1.85275 18.3294 3.54812 19.2836C3.5164 19.5211 3.50033 19.7604 3.5 20C3.5 23.2711 6.43975 25.8891 9.71638 25.4519C10.6692 27.1473 12.4843 28.25 14.5 28.25C16.5157 28.25 18.3307 27.1473 19.2836 25.4519C22.5534 25.8891 25.5 23.2711 25.5 20C25.5 19.7621 25.4835 19.5229 25.4519 19.2836C27.1473 18.3294 28.25 16.5144 28.25 14.5C28.25 12.4856 27.1473 10.6706 25.4519 9.71638ZM13.0631 20.572L8.021 15.4653L9.979 13.5347L13.0824 16.678L19.032 10.7738L20.968 12.7262L13.0631 20.572Z"
+                  fill="#0094FF"
+                />
+              </svg>
+            </div>
+            <p class="m-0 d-none d-lg-block">Mardha Mardiya</p>
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdown"
+          >
+            <li><a class="dropdown-item" href="#!">Profile</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#!">Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div id="layoutSidenav">
+      <div id="layoutSidenav_nav">
+        <nav class="sb-sidenav accordion bg-white" id="sidenavAccordion">
+          <div class="sb-sidenav-menu">
+            <div class="nav">
+              <div
+                class="sb-sidenav-menu-heading d-flex align-items-center gap-2"
+              >
+                <i class="bx bx-camera-movie bx-sm"></i> List Video
+              </div>
+
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      1. Kata Pengantar
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <ul class="p-0">
+                        <li>
+                          <a
+                            href="#"
+                            class="bg-white d-flex align-items-center gap-2 p-2 rounded-pill text-black"
+                          >
+                            <i class="bx bx-play-circle bx-sm"></i> Pengenalan
+                          </a>
+                        </li>
+                        <li class="mt-3">
+                          <a
+                            href="#"
+                            class="bg-white d-flex align-items-center gap-2 p-2 rounded-pill text-black"
+                          >
+                            <i class="bx bx-play-circle bx-sm"></i> Hak Cipta
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      2. Persiapan
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <ul class="p-0">
+                        <li>
+                          <a
+                            href="#"
+                            class="bg-white d-flex align-items-center gap-2 p-2 rounded-pill text-black"
+                          >
+                            <i class="bx bx-play-circle bx-sm"></i> Alat dan
+                            Bahan
+                          </a>
+                        </li>
+                        <li class="mt-3">
+                          <a
+                            href="#"
+                            class="bg-white d-flex align-items-center gap-2 p-2 rounded-pill text-black"
+                          >
+                            <i class="bx bx-play-circle bx-sm"></i> Alat dan
+                            Bahan
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      3. Teknik Curving
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <ul class="p-0">
+                        <li>
+                          <a
+                            href="#"
+                            class="bg-white d-flex align-items-center gap-2 p-2 rounded-pill text-black"
+                          >
+                            <i class="bx bx-play-circle bx-sm"></i> Membuat
+                            Garnish Kembang
+                          </a>
+                        </li>
+                        <li class="mt-3">
+                          <a
+                            href="#"
+                            class="bg-white d-flex align-items-center gap-2 p-2 rounded-pill text-black"
+                          >
+                            <i class="bx bx-play-circle bx-sm"></i> Membuat
+                            Garnish Daun
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-5 mx-auto">
+                <a
+                  href="kelas.html"
+                  class="first-btn d-flex align-items-center gap-2"
+                  ><i class="bx bx-arrow-back bx-sm"></i> Kembali ke
+                  dashboard</a
+                >
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div id="layoutSidenav_content">
+        <main>
+          <div class="container-fluid pt-4">
+            <div class="row">
+              <div class="col-12">
+                <div class="bg-danger video-wrapper">
+                  <iframe
+                    class="videoItem"
+                    src="https://www.youtube.com/embed/Pbo4pk84cBM"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row mt-3 mt-lg-5 justify-content-between flex-column-reverse gap-3"
+            >
+              <div class="col-lg-5">
+                <h2>1. Membuat Garnish Kembang</h2>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex justify-content-end gap-3">
+                  <a href="#" class="first-btn d-flex align-items-center gap-2"
+                    ><i class="bx bx-edit-alt bx-sm"></i> Berikan Tanggapan</a
+                  >
+                  <a href="#" class="first-btn d-flex align-items-center gap-2"
+                    ><i class="bx bx-chevron-right-circle bx-sm"></i> Video
+                    Selanjutnya</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+        <footer class="py-4 bg-light mt-auto">
+          <div class="container-fluid px-4">
+            <div
+              class="d-flex align-items-center justify-content-between small"
+            >
+              <div class="text-muted">Copyright &copy; Your Website 2022</div>
+              <div>
+                <a href="#">Privacy Policy</a>
+                &middot;
+                <a href="#">Terms &amp; Conditions</a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/script-dashboard.js"></script>
+  </body>
+</html>

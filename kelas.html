@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="./assets/img/logo-banuatumpeng.webp" />
+    <title>Member Area</title>
+    <!-- MYFONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- MYICONS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link href="./assets/css/dashboard-member.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/style-dashboard.css" />
+  </head>
+  <body class="sb-nav-fixed">
+    <nav class="sb-topnav navbar navbar-expand py-4">
+      <!-- Navbar Brand-->
+      <a class="navbar-brand ps-3 text-black" href="index.html">
+        <img src="./assets/img/logo-banuatumpeng.webp" width="60" alt="" />
+        Member Area</a
+      >
+      <!-- Sidebar Toggle-->
+      <button
+        class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0"
+        id="sidebarToggle"
+        href="#!"
+      >
+        <i class="bx bx-menu bx-sm text-black"></i>
+      </button>
+
+      <!-- Navbar-->
+      <ul class="navbar-nav ms-auto me-3 me-lg-4">
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle text-black fw-bold d-flex align-items-center gap-2"
+            id="navbarDropdown"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <div class="position-relative">
+              <img src="./assets/img/testi.png" width="50" alt="" />
+              <svg
+                class="verified"
+                width="29"
+                height="29"
+                viewBox="0 0 29 29"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="14.5" cy="14.5" r="8.5" fill="white" />
+                <path
+                  d="M25.4519 9.71638C25.4835 9.47713 25.5 9.23787 25.5 9C25.5 5.72888 22.5534 3.104 19.2836 3.54812C18.3307 1.85275 16.5157 0.75 14.5 0.75C12.4843 0.75 10.6692 1.85275 9.71638 3.54812C6.43975 3.104 3.5 5.72888 3.5 9C3.5 9.23787 3.5165 9.47713 3.54812 9.71638C1.85275 10.6706 0.75 12.4856 0.75 14.5C0.75 16.5144 1.85275 18.3294 3.54812 19.2836C3.5164 19.5211 3.50033 19.7604 3.5 20C3.5 23.2711 6.43975 25.8891 9.71638 25.4519C10.6692 27.1473 12.4843 28.25 14.5 28.25C16.5157 28.25 18.3307 27.1473 19.2836 25.4519C22.5534 25.8891 25.5 23.2711 25.5 20C25.5 19.7621 25.4835 19.5229 25.4519 19.2836C27.1473 18.3294 28.25 16.5144 28.25 14.5C28.25 12.4856 27.1473 10.6706 25.4519 9.71638ZM13.0631 20.572L8.021 15.4653L9.979 13.5347L13.0824 16.678L19.032 10.7738L20.968 12.7262L13.0631 20.572Z"
+                  fill="#0094FF"
+                />
+              </svg>
+            </div>
+            <p class="m-0 d-none d-lg-block">Mardha Mardiya</p>
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdown"
+          >
+            <li><a class="dropdown-item" href="#!">Profile</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#!">Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div id="layoutSidenav">
+      <div id="layoutSidenav_nav">
+        <nav class="sb-sidenav accordion bg-white" id="sidenavAccordion">
+          <div class="sb-sidenav-menu">
+            <div class="nav">
+              <div class="sb-sidenav-menu-heading">Menu</div>
+              <a
+                class="nav-link d-flex align-items-center gap-2 text-black active"
+                href="index.html"
+              >
+                <i class="bx bx-chalkboard bx-sm"></i>
+
+                Kelas Saya
+              </a>
+              <a
+                class="nav-link d-flex align-items-center gap-2 text-black"
+                href="index.html"
+              >
+                <i class="bx bx-wallet"></i>
+                Transaksi
+              </a>
+              <a
+                class="nav-link d-flex align-items-center gap-2 text-black"
+                href="index.html"
+              >
+                <i class="bx bx-cog"></i>
+                Pengaturan Akun
+              </a>
+              <a
+                class="nav-link d-flex align-items-center gap-2 text-black"
+                href="index.html"
+              >
+                <i class="bx bx-log-out"></i>
+                Logout
+              </a>
+            </div>
+
+            <div
+              class="alert alert-warning alert-dismissible fade show mt-5"
+              role="alert"
+            >
+              <strong>Yeayyy!</strong> Akunmu sudah premium😎
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="alert"
+                aria-label="Close"
+              ></button>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div id="layoutSidenav_content">
+        <main>
+          <div class="container-fluid pt-4">
+            <div class="row">
+              <div class="col-12">
+                <h1>Pelatihan Yang Saya Ikuti</h1>
+                <p>Peluang berkembangnya usaha kamu semakin terlihat</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mt-3 col-lg-3">
+                <div class="card">
+                  <img src="./assets/img/kelas.png" alt="" />
+                  <div class="card-body">
+                    <a href="kelas-detail.html" class="card-title">
+                      Paket Intensive Garnish Profesional Siap Berkarir Di
+                      Industri Tumpeng
+                    </a>
+                    <p class="mt-3 text-muted">Kelas Pemula</p>
+                    <div class="d-flex align-items-center gap-2">
+                      <i class="bx bx-check-circle"></i>
+                      Akses Selamanya
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mt-3 col-lg-3">
+                <div class="card">
+                  <img src="./assets/img/kelas.png" alt="" />
+                  <div class="card-body">
+                    <a href="#" class="card-title">
+                      Paket Intensive Garnish Profesional Siap Berkarir Di
+                      Industri Tumpeng
+                    </a>
+                    <p class="mt-3 text-muted">Kelas Pemula</p>
+                    <div class="d-flex align-items-center gap-2">
+                      <i class="bx bx-check-circle"></i>
+                      Akses Selamanya
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mt-3 col-lg-3">
+                <div class="card">
+                  <img src="./assets/img/kelas.png" alt="" />
+                  <div class="card-body">
+                    <a href="#" class="card-title">
+                      Paket Intensive Garnish Profesional Siap Berkarir Di
+                      Industri Tumpeng
+                    </a>
+                    <p class="mt-3 text-muted">Kelas Pemula</p>
+                    <div class="d-flex align-items-center gap-2">
+                      <i class="bx bx-check-circle"></i>
+                      Akses Selamanya
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mt-3 col-lg-3">
+                <div class="card">
+                  <img src="./assets/img/kelas.png" alt="" />
+                  <div class="card-body">
+                    <a href="#" class="card-title">
+                      Paket Intensive Garnish Profesional Siap Berkarir Di
+                      Industri Tumpeng
+                    </a>
+                    <p class="mt-3 text-muted">Kelas Pemula</p>
+                    <div class="d-flex align-items-center gap-2">
+                      <i class="bx bx-check-circle"></i>
+                      Akses Selamanya
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+        <footer class="py-4 bg-light mt-auto">
+          <div class="container-fluid px-4">
+            <div
+              class="d-flex align-items-center justify-content-between small"
+            >
+              <div class="text-muted">Copyright &copy; Your Website 2022</div>
+              <div>
+                <a href="#">Privacy Policy</a>
+                &middot;
+                <a href="#">Terms &amp; Conditions</a>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/script-dashboard.js"></script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+*{
+    text-decoration: none !important;
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFAE1 !important;
+}
+
+.navbar-nav .verified{
+    position: absolute;
+    top: 0;
+    left: -10px;
+}
+
+.sb-sidenav-menu .nav-link.active{
+    background-color: #ECAC5D;
+    color: white !important;
+}
+
+#layoutSidenav_content .card .card-title{
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+
+.video-wrapper{
+    width: 100%;
+}
+
+.video-wrapper .videoItem{
+    width: 100%;
+    height: 700px;
+}
+
+
+.first-btn{
+    font-size: 14px;
+    background-color: #ECAC5D;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-weight: 400;
+}
+
+.first-btn:hover{
+    background-color: #db9c4e;
+    color: rgb(209, 201, 201);
+}
+
+@media screen and (max-width: 500px) {
+    .video-wrapper .videoItem{
+        width: 100%;
+        height: 300px;
+    }
+
+    .first-btn{
+        font-size: 12px;
+        background-color: #ECAC5D;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-weight: 400;
+    }
+    
+    .first-btn:hover{
+        background-color: #db9c4e;
+        color: rgb(209, 201, 201);
+    }
+}
+
